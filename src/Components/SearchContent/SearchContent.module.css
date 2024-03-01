@@ -1,0 +1,44 @@
+.main {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 30px;
+	gap: 20px
+}
+
+.search_video_block {
+	display: flex;
+	align-items: center;
+	width: 80%;
+  	height: 180px;
+	color: #fff;
+  	cursor: pointer;
+}
+.search_video_block:hover {
+	color: #fff
+}
+
+.search_img_block {
+	width: 320px;
+ 	height: 180px;
+ 	position: relative;
+ 	overflow: hidden;
+}
+
+.search_img {
+	width: 320px;
+  	object-fit:fill;
+  	margin-top: -30px;
+}
+
+.search_video_title {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+
+	height: 100%;
+	margin-left: 20px;
+	/* gap: 10px; */
+}
